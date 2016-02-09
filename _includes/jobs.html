@@ -1,0 +1,29 @@
+<!-- Jobs Section -->
+<section id="jobs">
+    <div class="container">
+        <div class="col-md-10 col-md-offset-1 text-center">
+            <!--<h3 class="section-heading">Lediga Tjänster</h3>
+            {% for post in site.categories.jobs %}
+            <div class="col-md-4 col-md-offset-4 col-sm-12 blog-data">
+                <div>
+                    <a href="#portfolioModal{{ post.modal-id }}" data-toggle="modal"><h4>{{ post.title }}</h4></a>
+                </div>
+            </div>
+            {% endfor %}-->
+            <!-- Workbuster Script -->
+            <script type="text/javascript" src="http://ext.workbuster.se/wb.php?site=TalentTrek&subsite=contribe&disableoffset=1"></script>
+            <script type="text/javascript">
+                (function($) {
+                    var firstLoad = true;
+                    //to avoid scroll on reload
+                    $('#workbuster_iframe').on('load', function() {
+                        if (!firstLoad) {
+                         document.body.scrollTop=$(this).offset().top;
+                        }
+                        firstLoad = false;
+                    });
+                }(jQuery));
+            </script>
+        </div>
+    </div>
+</section>
