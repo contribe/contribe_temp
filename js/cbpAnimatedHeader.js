@@ -28,9 +28,15 @@ var cbpAnimatedHeader = (function() {
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
 			classie.add( header, 'navbar-shrink' );
+			// $('.navbar-header').css({"float":"left"});
+			// $('.navbar-toggle').css({"display":"none"});
+			// $('.navbar-nav').css({"display":"block"});
 		}
 		else {
 			classie.remove( header, 'navbar-shrink' );
+			// $('.navbar-header').css({"float":"none"});
+			// $('.navbar-toggle').css({"display":"block"});
+			// $('.navbar-nav').css({"display":"none"});
 		}
 		didScroll = false;
 	}

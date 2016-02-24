@@ -7,6 +7,7 @@
 @font-face {
     font-family: edo;
     src: url('fonts/edo-webfont.ttf');
+    -webkit-font-smoothing: antialiased;
 }
 
 html, body. div {
@@ -232,17 +233,25 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.color.primary }};
-    background-color: #{{ site.color.primary }};
+    border: none;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 32px;
+    height: 5px;
+    border-radius: 1px;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.color.primary }};
+    background-color: transparent;
 }
 
 .navbar-default .nav li a {
@@ -272,7 +281,6 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default.navbar-shrink .navbar-brand img.logoHeader {
-    font-size: 1.5em;
     max-height: 100%;
     max-width: 100%;
     -webkit-transition: all .3s;
@@ -342,7 +350,7 @@ body {
     margin-left: 1%;
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:769px) {
 
     .navbar-default {
         padding: 25px 0;
@@ -390,25 +398,10 @@ body {
         padding: 20px;
     }
 
-    .logoSwap img:last-child {
-        display: none;
-    }
-    
-    .logoSwap:hover img:first-child {
-        display: none;
-    }
-    
-    .logoSwap:hover img:last-child {
-        display: block;
-    }
-
     nav .container {
         width: 100%;
     }
 
-}
-
-@media screen and (max-width: 1024px) {
     .navbar-header {
         float: none;
     }
@@ -423,7 +416,8 @@ body {
         display: none!important;
     }
     .navbar-nav {
-        float: none!important;
+        float: right;
+        text-align: right;
         margin: 7.5px -15px;
     }
     .navbar-nav>li {
@@ -444,6 +438,8 @@ body {
     .collapsing {
         overflow: hidden!important;
     }
+
+
 }
 
 header {
@@ -591,12 +587,6 @@ section p.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
 }
-
-/*@media screen and (min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
-}*/
 
 .offer-heading {
     margin: 15px 0;
