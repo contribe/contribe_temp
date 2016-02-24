@@ -31,8 +31,16 @@ body {
 }
 
 .contributionBG {
-    background-image: url('img/blog/internetCamp.jpg');
+    /*background-image: url('img/blog/internetCamp.jpg');*/
+    background: -moz-linear-gradient(right, rgba(34, 34, 34, 0) 0%, rgba(34, 34, 34, 0) 59%, rgba(34, 34, 34, 1) 100%), url('img/blog/internetCamp.jpg') no-repeat;
+    background: -webkit-gradient(linear, right top, right bottom, color-stop(0%, rgba(34, 34, 34, 1)), color-stop(59%, rgba(34, 34, 34, 1)), color-stop(100%, rgba(34, 34, 34, 1))), url('img/blog/internetCamp.jpg') no-repeat;
+    background: -webkit-linear-gradient(right, rgba(34, 34, 34, 0) 0%, rgba(34, 34, 34, 0) 59%, rgba(34, 34, 34, 1) 100%), url('img/blog/internetCamp.jpg') no-repeat;
+    background: -o-linear-gradient(right, rgba(34, 34, 34, 0) 0%, rgba(34, 34, 34, 0) 59%, rgba(34, 34, 34, 1) 100%), url('img/blog/internetCamp.jpg') no-repeat;
+    background: -ms-linear-gradient(right, rgba(34, 34, 34, 0) 0%, rgba(34, 34, 34, 0) 59%, rgba(34, 34, 34, 1) 100%), url('img/blog/internetCamp.jpg') no-repeat;
+    background: linear-gradient(to right, rgba(34, 34, 34, 0) 0%, rgba(34, 34, 34, 0) 59%, rgba(34, 34, 34, 1) 100%), url('img/blog/internetCamp.jpg') no-repeat;
 }
+
+
 
 .blogBG {
     background-image: url('img/blogBG.jpg');
@@ -341,14 +349,54 @@ body {
     padding: 0px 20px;
 }
 
-.logoSwap img.color {
-        display: none;
-}
-
 .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
     margin-right: 1%;
     margin-left: 1%;
 }
+
+/*carousel fade effect*/
+
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+  transition: opacity 5s ease-in-out;
+   -moz-transition: opacity 5s ease-in-out;
+   -webkit-transition: opacity 5s ease-in-out;
+}
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+  transition: opacity 5s ease-in-out;
+   -moz-transition: opacity 5s ease-in-out;
+   -webkit-transition: opacity 5s ease-in-out;
+}
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+.carouselBG {
+    background-color: #000000;
+}
+
+/*end carousel fade*/
 
 @media screen and (min-width:769px) {
 
@@ -469,6 +517,11 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
 }
 
 header .intro-text .intro-lead-in-link {
@@ -477,6 +530,11 @@ header .intro-text .intro-lead-in-link {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
 }
 
 header .intro-text .intro-heading {
@@ -484,9 +542,17 @@ header .intro-text .intro-heading {
     text-transform: uppercase;
     font-family: edo;
     color: #3397b9;
+    background: -webkit-linear-gradient(#3397b9, #143c4a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 30px;
     font-weight: 700;
     line-height: 30px;
+
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
 }
 
 .dark {
@@ -509,6 +575,12 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+
+
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
     }
 
     header .intro-text .intro-lead-in-link {
@@ -517,6 +589,11 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
     }
 
     header .intro-text .intro-heading {
@@ -524,9 +601,17 @@ header .intro-text .intro-heading {
         text-transform: uppercase;
         font-family: edo;
         color: #3397b9;
+        background: -webkit-linear-gradient(#3397b9, #143c4a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
     }
 
     .intro-text-alt {
@@ -537,6 +622,9 @@ header .intro-text .intro-heading {
 
     .intro-text-alt h2 {
         color: #3397b9;
+        background: -webkit-linear-gradient(#3397b9, #143c4a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         margin-bottom: 40px;
         font-size: 3em;
     }
@@ -569,6 +657,9 @@ section h2.section-heading {
     margin-bottom: 15px;
     font-size: 2em;
     color: #3397b9;
+    background: -webkit-linear-gradient(#3397b9, #143c4a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 section h3.section-heading {    
