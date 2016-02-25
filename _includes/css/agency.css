@@ -365,18 +365,18 @@ body {
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
   opacity: 0;
-  transition: opacity 4s ease-in-out;
-   -moz-transition: opacity 4s ease-in-out;
-   -webkit-transition: opacity 4s ease-in-out;
+  transition: opacity 3s ease-in-out;
+   -moz-transition: opacity 3s ease-in-out;
+   -webkit-transition: opacity 3s ease-in-out;
 }
 
 .carousel-fade .carousel-inner .active,
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
-  transition: opacity 4s ease-in-out;
-   -moz-transition: opacity 4s ease-in-out;
-   -webkit-transition: opacity 4s ease-in-out;
+  transition: opacity 3s ease-in-out;
+   -moz-transition: opacity 3s ease-in-out;
+   -webkit-transition: opacity 3s ease-in-out;
 }
 
 .carousel-fade .carousel-inner .next,
