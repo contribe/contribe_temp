@@ -398,7 +398,7 @@ body {
 
 /*end carousel fade*/
 
-@media screen and (min-width:769px) {
+/*@media screen and (min-width:769px) {
 
     .navbar-default {
         padding: 25px 0;
@@ -488,7 +488,115 @@ body {
     }
 
 
+}*/
+
+
+
+@media screen and (min-width:1200px) {
+
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-brand img {
+        max-height: 150%;
+        max-width: 150%;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #3397b9;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand img.logoHeader {
+        font-size: 1.5em;
+        max-height: 100%!important;
+        max-width: 100%;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .clientLogo {
+        padding: 20px;
+    }
+
+    .logoSwap img:last-child {
+        display: none;
+    }
+    
+    .logoSwap:hover img:first-child {
+        display: none;
+    }
+    
+    .logoSwap:hover img:last-child {
+        display: block;
+    }
+
+    nav .container {
+        width: 100%;
+    }
+
 }
+
+@media screen and (max-width: 1024px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+
 
 header {
     text-align: center;
@@ -559,7 +667,7 @@ header .intro-text .intro-heading {
     color: #000000;
 }
 
-@media screen and (min-width:768px) {
+/*@media screen and (min-width:768px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -633,7 +741,66 @@ header .intro-text .intro-heading {
         height: 450px;
     }
 
+}*/
+
+
+
+
+@media screen and (min-width:768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+        height: 900px;
+        width: 50%;
+        margin: auto;
+        text-align: left;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 55px;
+        font-family: 'Martel Sans', sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-lead-in-link {
+        margin-bottom: 55px;
+        font-family: edo;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: edo;
+        color: #3397b9;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+
+    .intro-text-alt {
+        height: 450px;
+        padding-top: 100px;
+        color: #ffffff;
+    }
+
+    .intro-text-alt h2 {
+        color: #3397b9;
+        margin-bottom: 40px;
+        font-size: 3em;
+    }
+
+    .intro-text-half {
+        height: 450px;
+    }
+
 }
+
+
 
 #blog {
     margin-bottom: 0px;
