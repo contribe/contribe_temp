@@ -365,18 +365,18 @@ body {
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
   opacity: 0;
-  transition: opacity 5s ease-in-out;
-   -moz-transition: opacity 5s ease-in-out;
-   -webkit-transition: opacity 5s ease-in-out;
+  transition: opacity 3s ease-in-out;
+   -moz-transition: opacity 3s ease-in-out;
+   -webkit-transition: opacity 3s ease-in-out;
 }
 
 .carousel-fade .carousel-inner .active,
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
-  transition: opacity 5s ease-in-out;
-   -moz-transition: opacity 5s ease-in-out;
-   -webkit-transition: opacity 5s ease-in-out;
+  transition: opacity 3s ease-in-out;
+   -moz-transition: opacity 3s ease-in-out;
+   -webkit-transition: opacity 3s ease-in-out;
 }
 
 .carousel-fade .carousel-inner .next,
@@ -628,8 +628,8 @@ header .intro-text .intro-lead-in {
 
     -webkit-animation-duration: 1s;
     -moz-animation-duration: 1s;
-    -webkit-animation-delay: 0.5s;
-    -moz-animation-delay: 0.5s;
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
 }
 
 header .intro-text .intro-lead-in-link {
@@ -641,8 +641,8 @@ header .intro-text .intro-lead-in-link {
 
     -webkit-animation-duration: 1s;
     -moz-animation-duration: 1s;
-    -webkit-animation-delay: 1s;
-    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
 }
 
 header .intro-text .intro-heading {
@@ -650,7 +650,7 @@ header .intro-text .intro-heading {
     text-transform: uppercase;
     font-family: edo;
     color: #3397b9;
-    background: -webkit-linear-gradient(#3397b9, #143c4a);
+    background: -webkit-linear-gradient(#3397b9, #15609B);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 30px;
@@ -687,8 +687,8 @@ header .intro-text .intro-heading {
 
         -webkit-animation-duration: 1s;
         -moz-animation-duration: 1s;
-        -webkit-animation-delay: 1s;
-        -moz-animation-delay: 1s;
+        -webkit-animation-delay: 1.5s;
+        -moz-animation-delay: 1.5s;
     }
 
     header .intro-text .intro-lead-in-link {
@@ -700,8 +700,8 @@ header .intro-text .intro-heading {
 
         -webkit-animation-duration: 1s;
         -moz-animation-duration: 1s;
-        -webkit-animation-delay: 1s;
-        -moz-animation-delay: 1s;
+        -webkit-animation-delay: 2s;
+        -moz-animation-delay: 2s;
     }
 
     header .intro-text .intro-heading {
@@ -709,7 +709,7 @@ header .intro-text .intro-heading {
         text-transform: uppercase;
         font-family: edo;
         color: #3397b9;
-        background: -webkit-linear-gradient(#3397b9, #143c4a);
+        background: -webkit-linear-gradient(#3397b9, #15609B);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 75px;
@@ -730,7 +730,7 @@ header .intro-text .intro-heading {
 
     .intro-text-alt h2 {
         color: #3397b9;
-        background: -webkit-linear-gradient(#3397b9, #143c4a);
+        background: -webkit-linear-gradient(#3397b9, #15609B);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-bottom: 40px;
@@ -824,7 +824,7 @@ section h2.section-heading {
     margin-bottom: 15px;
     font-size: 2em;
     color: #3397b9;
-    background: -webkit-linear-gradient(#3397b9, #143c4a);
+    background: -webkit-linear-gradient(#3397b9, #15609B);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
