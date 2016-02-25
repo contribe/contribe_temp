@@ -542,7 +542,7 @@ header .intro-text .intro-heading {
     text-transform: uppercase;
     font-family: edo;
     color: #3397b9;
-    background: -webkit-linear-gradient(#3397b9, #143c4a);
+    background: -webkit-linear-gradient(#3397b9, #15609B);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 30px;
@@ -601,7 +601,7 @@ header .intro-text .intro-heading {
         text-transform: uppercase;
         font-family: edo;
         color: #3397b9;
-        background: -webkit-linear-gradient(#3397b9, #143c4a);
+        background: -webkit-linear-gradient(#3397b9, #15609B);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 75px;
@@ -622,7 +622,7 @@ header .intro-text .intro-heading {
 
     .intro-text-alt h2 {
         color: #3397b9;
-        background: -webkit-linear-gradient(#3397b9, #143c4a);
+        background: -webkit-linear-gradient(#3397b9, #15609B);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-bottom: 40px;
@@ -657,7 +657,7 @@ section h2.section-heading {
     margin-bottom: 15px;
     font-size: 2em;
     color: #3397b9;
-    background: -webkit-linear-gradient(#3397b9, #143c4a);
+    background: -webkit-linear-gradient(#3397b9, #15609B);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
