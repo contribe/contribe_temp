@@ -365,18 +365,18 @@ body {
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
   opacity: 0;
-  transition: opacity 5s ease-in-out;
-   -moz-transition: opacity 5s ease-in-out;
-   -webkit-transition: opacity 5s ease-in-out;
+  transition: opacity 4s ease-in-out;
+   -moz-transition: opacity 4s ease-in-out;
+   -webkit-transition: opacity 4s ease-in-out;
 }
 
 .carousel-fade .carousel-inner .active,
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
-  transition: opacity 5s ease-in-out;
-   -moz-transition: opacity 5s ease-in-out;
-   -webkit-transition: opacity 5s ease-in-out;
+  transition: opacity 4s ease-in-out;
+   -moz-transition: opacity 4s ease-in-out;
+   -webkit-transition: opacity 4s ease-in-out;
 }
 
 .carousel-fade .carousel-inner .next,
@@ -520,8 +520,8 @@ header .intro-text .intro-lead-in {
 
     -webkit-animation-duration: 1s;
     -moz-animation-duration: 1s;
-    -webkit-animation-delay: 0.5s;
-    -moz-animation-delay: 0.5s;
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
 }
 
 header .intro-text .intro-lead-in-link {
@@ -533,8 +533,8 @@ header .intro-text .intro-lead-in-link {
 
     -webkit-animation-duration: 1s;
     -moz-animation-duration: 1s;
-    -webkit-animation-delay: 1s;
-    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
 }
 
 header .intro-text .intro-heading {
@@ -579,8 +579,8 @@ header .intro-text .intro-heading {
 
         -webkit-animation-duration: 1s;
         -moz-animation-duration: 1s;
-        -webkit-animation-delay: 1s;
-        -moz-animation-delay: 1s;
+        -webkit-animation-delay: 1.5s;
+        -moz-animation-delay: 1.5s;
     }
 
     header .intro-text .intro-lead-in-link {
@@ -592,8 +592,8 @@ header .intro-text .intro-heading {
 
         -webkit-animation-duration: 1s;
         -moz-animation-duration: 1s;
-        -webkit-animation-delay: 1s;
-        -moz-animation-delay: 1s;
+        -webkit-animation-delay: 2s;
+        -moz-animation-delay: 2s;
     }
 
     header .intro-text .intro-heading {
