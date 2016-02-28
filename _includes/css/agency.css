@@ -27,6 +27,11 @@ body {
 }
 
 .secondBG {
+    background-image: url('img/contribe_web.jpg');
+    background-position: center;
+}
+
+.passionBG {
     background-image: url('img/contribe_tattoo.jpg');
 }
 
@@ -267,7 +272,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: 'Martel Sans', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #{{ site.color.primary }};
 }
 
 .navbar-default .nav li a:hover,
@@ -278,14 +283,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #{{ site.color.secondary }};
+    color: #{{ site.color.secondary }};
+    background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #{{ site.color.secondary }};
+    color: #{{ site.color.secondary }};
+    background-color: transparent;
 }
 
 .navbar-default.navbar-shrink .navbar-brand img.logoHeader {
@@ -395,6 +400,78 @@ body {
 .carouselBG {
     background-color: #000000;
 }
+
+
+
+/*hover accordion fpr vardeord section*/
+
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default .accordion-item-content {
+    height: 20em;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+    height: 0;
+    overflow: hidden;
+    transition: height .25s;
+    width: 40%;
+}
+
+.accordion {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.accordion .accordion-item {
+  background-image: linear-gradient(90deg, #eee, #f5f5f5, #eee);
+  border-bottom: 1px solid #666;
+  padding: 1em;
+  padding-left: 6em;
+  color: #eee;
+}
+
+.accordion h1 {
+  margin: 0;
+  padding: .5em 0;
+  font-size: 4em;
+}
+
+.accordion .accordion-item:nth-child(1) {
+  background-image: url('img/passion.png');
+}
+
+.accordion .accordion-item:nth-child(2) {
+  background-image: url('img/passion.png');
+}
+
+.accordion .accordion-item:nth-child(3) {
+  background-image: url('img/passion.png');
+}
+
+.accordion .accordion-item:nth-child(4) {
+  background-image: url('img/passion.png');
+}
+
+/*end hover accordion*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*end carousel fade*/
 
@@ -524,7 +601,7 @@ body {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #3397b9;
+        background-color: transparent;
     }
 
     .navbar-default.navbar-shrink .navbar-brand img.logoHeader {
@@ -807,22 +884,20 @@ header .intro-text .intro-heading {
     padding-bottom: 0px;
 }
 
-#jobs {
-    border: 15px solid #143c4a;
-}
-
 section {
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 0px;
 }
 
-section#values {
-    padding: 0px;
-}
+/*section#values {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}*/
 
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 2em;
+    font-size: 3em;
     color: #3397b9;
     background: -webkit-linear-gradient(#3397b9, #15609B);
     -webkit-background-clip: text;
