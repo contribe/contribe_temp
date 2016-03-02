@@ -601,7 +601,7 @@ body {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: transparent;
+        background-color: #222;
     }
 
     .navbar-default.navbar-shrink .navbar-brand img.logoHeader {
@@ -879,13 +879,14 @@ header .intro-text .intro-heading {
 
 
 
-#blog {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
 
 section {
     padding-top: 100px;
+    padding-bottom: 0px;
+}
+section#blog {
+    padding-top: 0px;
+    margin-bottom: 0px;
     padding-bottom: 0px;
 }
 

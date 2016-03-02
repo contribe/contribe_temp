@@ -1,10 +1,10 @@
-url: https://www.contribe.se
-baseurl: /contribe_temp
-#url: https://localhost:4000
+#url: https://www.contribe.se
+url: https://localhost:4000
+#baseurl: /contribe_temp
 
 # Site settings
 title: Contribe
-email: brian.ranney@contribe.se
+email: bjorn.andersson@contribe.se
 description: "Contribe - Vi förenklar framtiden"
 
 # Color settings (hex-codes without the leading hash-tag)
@@ -65,9 +65,9 @@ permalink: pretty
 
 # Customer logos
 logos-preview: 
-  - url1: kalmar.png
-    url2: kalmarColor.png
-    alt: kalmar logo
+  - url1: cargotec.png
+    url2: cargotecColor.png
+    alt: cargotec logo
   - url1: volvo.png
     url2: volvoColor.png
     alt: volvo logo
