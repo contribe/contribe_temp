@@ -1,6 +1,6 @@
-#url: https://contribe.github.io
-url: https://localhost:4000
-#baseurl: /contribe_temp
+url: https://contribe.github.io
+#url: https://localhost:4000
+baseurl: /contribe_temp
 
 #sass settings
 sass:
@@ -20,7 +20,7 @@ color:
 # all contribe offices
 offices:
   - name: Karlskrona
-    street: Borgmästaregatan 18 
+    street: Borgmästaregatan 18
     zip_city: 371 34 Karlskrona
     post_street:
     post_city:
@@ -68,7 +68,7 @@ markdown: kramdown
 permalink: pretty
 
 # Customer logos
-logos-preview: 
+logos-preview:
   - url1: cargotec.png
     url2: cargotecColor.png
     alt: cargotec logo
@@ -94,7 +94,7 @@ logos-preview:
     url2: ericssonColor.png
     alt: ericsson logo
 
-logos-full: 
+logos-full:
   - url1: idata.png
     url2: idataColor.png
     alt: idata logo
@@ -140,7 +140,7 @@ prose:
     - feed.xml
     - index.html
     - LICENSE
-    - README.md 
+    - README.md
     - style.css
   metadata:
     _posts:
