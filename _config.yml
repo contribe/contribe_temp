@@ -1,6 +1,10 @@
-url: https://contribe.github.io
-#url: https://localhost:4000
-baseurl: /contribe_temp
+#url: https://contribe.github.io
+url: https://localhost:4000
+#baseurl: /contribe_temp
+
+#sass settings
+sass:
+  sass_dir: _sass
 
 # Site settings
 title: Contribe

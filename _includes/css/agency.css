@@ -401,186 +401,6 @@ body {
     background-color: #000000;
 }
 
-
-
-/*hover accordion fpr vardeord section*/
-
-.accordion:hover .accordion-item:hover .accordion-item-content,
-.accordion .accordion-item--default .accordion-item-content {
-    height: 20em;
-}
-
-.accordion-item-content,
-.accordion:hover .accordion-item-content {
-    height: 0;
-    overflow: hidden;
-    transition: height .25s;
-    width: 40%;
-}
-
-.accordion {
-    padding: 0;
-    margin: 0 auto;
-    width: 100%;
-}
-
-.accordion .accordion-item {
-  background-image: linear-gradient(90deg, #eee, #f5f5f5, #eee);
-  border-bottom: 1px solid #666;
-  padding: 1em 6em;
-  color: #eee;
-}
-
-.accordion .accordion-item h2 {
-  margin: 0;
-  padding: .5em 0;
-  font-size: 4em;
-}
-.accordion .accordion-item.right h2 {
-  margin: 0;
-  padding: .5em 0;
-  font-size: 4em;
-  text-align: right;
-}
-.accordion .accordion-item.right .accordion-item-content {
-    float: right;
-}
-.accordion .accordion-item .accordion-item-content.backdrop p {
-    background-color: #000;
-    padding: 1em;
-}
-
-.accordion .accordion-item:nth-child(1) {
-  background-image: url('img/contribe_gladje.jpg');
-}
-
-.accordion .accordion-item:nth-child(2) {
-  background-image: url('img/contribe_enkelhet2.jpg');
-}
-
-.accordion .accordion-item:nth-child(3) {
-  background-image: url('img/passion.png');
-}
-
-.accordion .accordion-item:nth-child(4) {
-  background-image: url('img/contribe_mod.jpg');
-}
-
-/*end hover accordion*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*end carousel fade*/
-
-/*@media screen and (min-width:769px) {
-
-    .navbar-default {
-        padding: 25px 0;
-        border: 0;
-        background-color: transparent;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-
-    .navbar-default .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-brand img {
-        max-height: 150%;
-        max-width: 150%;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
-    }
-
-    .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #3397b9;
-    }
-
-    .navbar-default.navbar-shrink .navbar-brand img.logoHeader {
-        font-size: 1.5em;
-        max-height: 100%!important;
-        max-width: 100%;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .clientLogo {
-        padding: 20px;
-    }
-
-    nav .container {
-        width: 100%;
-    }
-
-    .navbar-header {
-        float: none;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: right;
-        text-align: right;
-        margin: 7.5px -15px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .navbar-text {
-        float: none;
-        margin: 15px 0;
-    }
-
-    .navbar-collapse.collapse.in { 
-        display: block!important;
-    }
-    .collapsing {
-        overflow: hidden!important;
-    }
-
-
-}*/
-
-
-
 @media screen and (min-width:1200px) {
 
     .navbar-default {
@@ -632,11 +452,11 @@ body {
     .logoSwap img:last-child {
         display: none;
     }
-    
+
     .logoSwap:hover img:first-child {
         display: none;
     }
-    
+
     .logoSwap:hover img:last-child {
         display: block;
     }
@@ -677,7 +497,7 @@ body {
         margin: 15px 0;
     }
 
-    .navbar-collapse.collapse.in { 
+    .navbar-collapse.collapse.in {
         display: block!important;
     }
     .collapsing {
@@ -917,7 +737,7 @@ section h2.section-heading {
     -webkit-text-fill-color: transparent;
 }
 
-section h3.section-heading {    
+section h3.section-heading {
     color: #3397b9;
 }
 
@@ -952,15 +772,15 @@ section p.section-subheading {
 }
 
 .offer-left {
-    background-image: url('img/offer-left.jpg'); 
+    background-image: url('img/offer-left.jpg');
 }
 
 .offer-center {
-    background-image: url('img/offer-center.jpg'); 
+    background-image: url('img/offer-center.jpg');
 }
 
 .offer-right {
-    background-image: url('img/offer-right.jpg'); 
+    background-image: url('img/offer-right.jpg');
 }
 
 #portfolio .portfolio-item {
